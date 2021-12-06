@@ -20,6 +20,7 @@ at the top-level directory.
 
 int main(int argc, char *argv[])
 {
+    printf("I am here");
     SuperMatrix A;
     NCformat *Astore;
     complex   *a;
